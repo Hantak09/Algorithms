@@ -25,6 +25,7 @@ def build_max_heap(array: list[int]) -> None:
     for i in range((heap_size // 2) - 1, -1, -1):
         max_heapify(array, i, heap_size)
 
+
 """heapsort : Exchange the max element aka first element of heap with the last
               and heapify the first element. Repeat it for all the elements until
               the array is sorted."""
